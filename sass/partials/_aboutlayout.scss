@@ -1,14 +1,30 @@
 .about-main {
-    background: linear-gradient(getColour(#000, dark-violet));
+    margin-top: 100px;
 }
 
 .about-container {
     max-width: 900px;
     display: flex;
+    flex-direction: row;
     margin: 0 auto;
 }
 
 .about {
+    display: flex;
+    margin: 0 auto;
+    max-width: 900px;
+    padding-bottom: 30px;
+
+    .intro {
+        display: flex;
+
+        img {
+            border-radius: 10px;
+        }
+    }
+}
+
+.resume-summary {
     display: flex;
     margin: 0 auto;
     max-width: 900px;

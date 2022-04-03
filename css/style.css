@@ -60,6 +60,7 @@ h1 {
   font-size: 3em;
   margin: 20px;
   text-shadow: 2px 2px #0B032D;
+  text-align: center;
 }
 
 h2 {
@@ -68,6 +69,16 @@ h2 {
 
 h3 {
   font-family: "Crete Round", serif;
+  text-decoration: underline;
+  margin: 20px 15px;
+}
+
+p {
+  margin: 20px 15px;
+}
+
+p.bold-p {
+  font-weight: bold;
 }
 
 p, a {
@@ -91,6 +102,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   margin: 0;
+  width: 100%;
 }
 
 nav .hamburger {
@@ -145,7 +157,6 @@ nav .nav-cvbutton:hover {
   background-repeat: no-repeat;
   background-size: cover;
   height: 75vh;
-  opacity: 1;
 }
 
 @media (max-width: 650px) {
@@ -230,8 +241,7 @@ i {
 }
 
 .about-main {
-  background: -webkit-gradient(linear, left top, left bottom, from(getColour(#000, dark-violet)));
-  background: linear-gradient(getColour(#000, dark-violet));
+  margin-top: 100px;
 }
 
 .about-container {
@@ -239,6 +249,10 @@ i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin: 0 auto;
 }
 
@@ -248,5 +262,30 @@ i {
   display: flex;
   margin: 0 auto;
   max-width: 900px;
+  padding-bottom: 30px;
+}
+
+.about .intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .intro img {
+  border-radius: 10px;
+}
+
+.resume-summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.projects-banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
 }
 /*# sourceMappingURL=style.css.map */
