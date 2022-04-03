@@ -1,0 +1,54 @@
+header {
+    height: 100px;
+    background-color: getColor(dark-violet);
+    color: getColor(yellow);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+nav {
+
+    .hamburger {
+        display: none;
+
+        @media (max-width: 800px) {
+            display: block;
+        }
+    }
+
+    li, a {
+        text-decoration: none;
+        display: inline-block;
+        margin: 20px 15px;
+    }
+    
+    a {
+        color: getColor(yellow);
+        text-decoration: none;
+        padding: 15px;
+    }
+
+    a:hover {
+        transition: 0.5s;
+        color: getColor(orange);
+        text-align: underline;
+        
+
+    }
+
+    .nav-cvbutton {
+        background-color: getColor(yellow);
+        color: getColor(dark-violet);
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+
+    .nav-cvbutton:hover {
+        transition: 0.5s;
+        background-color: getColor(orange);
+        color: getColor(dark-violet);
+    }
+
+}

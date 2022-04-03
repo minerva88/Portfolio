@@ -1,0 +1,23 @@
+h1{
+    font-family: getFont(largeheader), serif;
+    font-size: 3em;
+    margin: 20px;
+}
+
+h2 {
+    font-family: getFont(mediumheader);
+}
+
+
+
+h3 {
+    font-family: getFont(mediumheader), serif;  
+}
+
+p, a {
+    font-family: getFont(paragraph);
+}
+
+a {
+    font-weight: 600;
+}

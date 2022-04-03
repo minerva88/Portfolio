@@ -1,0 +1,231 @@
+html {
+  background-color: #843B62;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0B032D), to(#843B62));
+  background: linear-gradient(#0B032D, #843B62);
+}
+
+main {
+  color: #FFB997;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h1 {
+  font-family: "Abril Fatface", serif;
+  font-size: 3em;
+  margin: 20px;
+}
+
+h2 {
+  font-family: "Crete Round";
+}
+
+h3 {
+  font-family: "Crete Round", serif;
+}
+
+p, a {
+  font-family: "Open Sans";
+}
+
+a {
+  font-weight: 600;
+}
+
+header {
+  height: 100px;
+  background-color: #0B032D;
+  color: #FFB997;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+nav .hamburger {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  nav .hamburger {
+    display: block;
+  }
+}
+
+nav li, nav a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 15px;
+}
+
+nav a {
+  color: #FFB997;
+  text-decoration: none;
+  padding: 15px;
+}
+
+nav a:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #F67E7D;
+  text-align: underline;
+}
+
+nav .nav-cvbutton {
+  background-color: #FFB997;
+  color: #0B032D;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+nav .nav-cvbutton:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #F67E7D;
+  color: #0B032D;
+}
+
+.welcome {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 75px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.7;
+}
+
+@media (max-width: 650px) {
+  .welcome {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 70vh;
+  }
+}
+
+.cont-hello {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 15px 0 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cont-hello h1 {
+  margin: 150px 0 30px 0;
+}
+
+.cont-welcome {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 30px 0 15px;
+}
+
+.cont-welcome img {
+  margin-top: 30px;
+}
+
+@media (max-width: 650px) {
+  .cont-welcome img {
+    margin: 100px 20px;
+  }
+}
+
+.skill-grid {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.cont-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .cont-skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.skill {
+  margin: 20px;
+}
+
+@media (max-width: 600px) {
+  .skill {
+    margin: 30px 15px;
+  }
+}
+
+i {
+  height: 25px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+$colors: (
+    dark-violet: #0B032D,
+    light-purple: #843B62,
+    orange: #F67E7D,
+    yellow: #FFB997,
+    
+);
+
+@function getColor($color) {
+    @return map-get($colors, $color);
+}
+
+$fonts: (
+    largeheader: 'Abril Fatface',
+    mediumheader: 'Crete Round',
+    paragraph: 'Open Sans',
+
+);
+
+@function getFont($font) {
+    @return map-get($fonts, $font);
+}
