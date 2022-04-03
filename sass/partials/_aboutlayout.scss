@@ -1,0 +1,15 @@
+.about-main {
+    background: linear-gradient(getColour(#000, dark-violet));
+}
+
+.about-container {
+    max-width: 900px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.about {
+    display: flex;
+    margin: 0 auto;
+    max-width: 900px;
+}
