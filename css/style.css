@@ -118,13 +118,13 @@ nav .hamburger {
 nav li, nav a {
   text-decoration: none;
   display: inline-block;
-  margin: 20px 15px;
+  margin: 20px 5px;
 }
 
 nav a {
   color: #FFB997;
   text-decoration: none;
-  padding: 15px;
+  padding: 5px;
 }
 
 nav a:hover {
@@ -287,5 +287,52 @@ i {
   background-repeat: no-repeat;
   background-size: cover;
   height: 30vh;
+  opacity: 0.7;
+}
+
+.projects {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.project-card {
+  background: #843B62;
+  padding: 20px 30px;
+  margin: 15px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .project-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.project-card .description a {
+  background-color: #FFB997;
+  color: #0B032D;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.project-card .description a:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #F67E7D;
+  color: #0B032D;
+}
+
+.project-card .card-image img {
+  max-width: 250px;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 15px;
 }
 /*# sourceMappingURL=style.css.map */
