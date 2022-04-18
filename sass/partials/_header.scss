@@ -9,11 +9,26 @@ header {
     //position: fixed;
     width: 100%;
 
+    @media (max-width: 700px) {
+        justify-content: space-between;
+    }
+
+
     .hamburger {
         display: none;
 
         @media (max-width: 700px) {
             display: block;
+            margin-right: 20px;
+        }
+    }
+
+    .logo {
+
+        @media (max-width: 700px) {
+
+            margin-right: 20px;
+            
         }
     }
 }
@@ -54,7 +69,7 @@ nav {
     }
 
     @media (max-width: 700px) {
-        display: hidden;
+        display: none;
     }
 
 }
