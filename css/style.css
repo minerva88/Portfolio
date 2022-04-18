@@ -65,6 +65,7 @@ h1 {
 
 h2 {
   font-family: "Crete Round";
+  margin: 20px 15px;
 }
 
 h3 {
@@ -344,5 +345,17 @@ i {
   border-radius: 5px;
   margin-top: 30px;
   margin-left: 15px;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.contact .social-media i {
+  margin: 0px 15px;
 }
 /*# sourceMappingURL=style.css.map */
