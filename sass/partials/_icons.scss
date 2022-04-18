@@ -1,3 +1,6 @@
-i {
-    height: 25px;
+i:hover {
+
+    color: getColor(orange);
+    transition: 0.7s;
+    
 }

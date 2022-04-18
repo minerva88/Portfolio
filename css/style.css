@@ -237,8 +237,10 @@ nav .nav-cvbutton:hover {
   }
 }
 
-i {
-  height: 25px;
+i:hover {
+  color: #F67E7D;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 
 .about-main {
@@ -310,9 +312,12 @@ i {
   background: #843B62;
   padding: 20px 30px;
   margin: 15px 30px;
+  border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-shadow: 5px 5px 5px #0B032D;
+          box-shadow: 5px 5px 5px #0B032D;
 }
 
 @media (max-width: 700px) {
@@ -357,5 +362,45 @@ i {
 
 .contact .social-media i {
   margin: 0px 15px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+form label {
+  font-family: "Crete Round";
+}
+
+form input {
+  height: 30px;
+  width: 350px;
+}
+
+form .field-textarea {
+  height: 75px;
+}
+
+form .input-btn {
+  background-color: #FFB997;
+  color: #0B032D;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+form .input-btn .input-btn:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #F67E7D;
+  color: #0B032D;
 }
 /*# sourceMappingURL=style.css.map */

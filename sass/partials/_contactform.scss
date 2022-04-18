@@ -1,0 +1,37 @@
+form {
+
+    display: flex;
+    flex-direction: column;
+
+    label {
+        font-family: getFont(mediumheader);
+    }
+    
+    input {
+        height: 30px;
+        width: 350px;
+
+        
+    }
+
+    .field-textarea {
+
+        height: 75px;
+    }
+
+    .input-btn {
+            background-color: getColor(yellow);
+            color: getColor(dark-violet);
+            padding: 10px 15px;
+            border-radius: 5px;
+            border: none;
+            text-decoration: none;
+            margin-top: 15px;
+    
+            .input-btn:hover {
+                transition: 0.5s;
+                background-color: getColor(orange);
+                color: getColor(dark-violet);
+            }
+    }
+}
