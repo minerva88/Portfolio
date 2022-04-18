@@ -105,12 +105,12 @@ header {
   width: 100%;
 }
 
-nav .hamburger {
+header .hamburger {
   display: none;
 }
 
 @media (max-width: 800px) {
-  nav .hamburger {
+  header .hamburger {
     display: block;
   }
 }

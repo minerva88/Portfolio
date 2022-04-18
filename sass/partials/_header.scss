@@ -8,9 +8,6 @@ header {
     margin: 0;
     //position: fixed;
     width: 100%;
-}
-
-nav {
 
     .hamburger {
         display: none;
@@ -19,6 +16,9 @@ nav {
             display: block;
         }
     }
+}
+
+nav {
 
     li, a {
         text-decoration: none;
