@@ -110,7 +110,7 @@ header .hamburger {
   display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   header .hamburger {
     display: block;
   }
@@ -147,6 +147,12 @@ nav .nav-cvbutton:hover {
   transition: 0.5s;
   background-color: #F67E7D;
   color: #0B032D;
+}
+
+@media (max-width: 700px) {
+  nav {
+    display: hidden;
+  }
 }
 
 .welcome {
